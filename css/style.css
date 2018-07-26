@@ -1,0 +1,302 @@
+/* Base Element Styles */
+
+@font-face {
+  font-family: "Queens Park";
+  src: url("../fonts/QUEENS_.TTF") format("truetype")
+       url("../fonts/QUEENS_B.TTF") format("truetype")
+}
+
+body {
+   background-color: #0F538F;
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   min-width: auto;
+}
+
+header {
+  background-color: #A2B6CE;
+  border-bottom: 2px solid #301A0E;
+  min-width: auto;
+  /* position: fixed;
+  top: 0; */
+}
+
+h1 {
+font-family:  'Queens Park';
+font-size: 2em;
+text-align: left;
+color: #A063C8;
+padding-bottom: none;
+}
+
+h2 {
+  font-family: 'Queens Park';
+  font-size: 1.5em;
+  color: #D7D8E4;
+  text-align: left;
+}
+
+p {
+  font-family: 'Queens Park';
+  font-size: 1em;
+  color: #D7D8E4;
+}
+
+strong {
+  font-family: 'Queens Park';
+  font-size: 2em;
+  color:#A063C8;
+}
+
+a {
+	font-family:'Queens Park';
+  font-size: 1.1em;
+}
+
+a.pop-humanities {
+  color: #474C4F;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #ccc,
+             0 2px 0 #c9c9c9,
+             0 3px 0 #bbb,
+             0 4px 0 #b9b9b9,
+             0 5px 0 #aaa,
+             0 6px 1px rgba(0,0,0,.1),
+             0 0 5px rgba(0,0,0,.1),
+             0 1px 3px rgba(0,0,0,.3),
+             0 3px 5px rgba(0,0,0,.2),
+             0 5px 10px rgba(0,0,0,.25),
+             0 10px 10px rgba(0,0,0,.2),
+             0 20px 20px rgba(0,0,0,.15);
+}
+
+a.pop-humanities:hover {
+  color: #A063C8;
+}
+
+a.comics {
+  color: #3A7BB1;
+}
+
+a.comics:hover {
+  color: #474C4F;
+}
+
+a.film {
+  color: #10609F;
+}
+
+a.film:hover {
+  color: #474C4F;
+}
+
+a.lit {
+  color: #9E5D30;
+}
+
+a.lit:hover {
+  color: #474C4F;
+}
+
+a.music {
+  color: #4D417F;
+}
+
+a.music:hover {
+  color: #474C4F;
+}
+
+a.theatre {
+  color: #898CAD;
+}
+
+a.theatre:hover {
+  color: #474C4F;
+}
+
+a.tv {
+  color: gray;
+}
+
+a.tv:hover {
+  color: #474C4F;
+}
+
+a.video-games {
+  color: #338427;
+}
+
+a.video-games:hover {
+  color: #474C4F;
+}
+
+a.ben-gierhart {
+  text-decoration: none;
+  color: #D7D8E4;
+}
+
+a.ben-gierhart:hover {
+  color: #A063C8;
+}
+
+a.top {
+  color: #D7D8E4;
+  text-decoration: none;
+}
+
+a.top:hover {
+  color: #A063C8;
+}
+
+a.link {
+  color: #D7D8E4;
+}
+
+a.link:hover {
+  color: #A063C8;
+}
+
+img {
+  height: 400px;
+  width: 300px;
+  border: 5px solid #301A0E;
+}
+
+img.ben-gierhart-image {
+  height: 480px;
+  width: 480px;
+}
+
+div.subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.main-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+p#copyright {
+  color: #301A0E;
+  font-size: .75em;
+}
+
+/* Base Layout Styles */
+.main-nav {
+	margin-top: 5px;
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav a {
+  font-family: 'Queens Park';
+  font-size: 3em;
+	text-align: center;
+	display: block;
+	padding: 10px 15px;
+}
+
+#statement {
+  font-style: italic;
+}
+
+/* Containers */
+.main-header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.column {
+    flex: 50%;
+    flex-wrap: wrap;
+
+}
+
+/* Inspiration Quotation Styles */
+
+#quoteContainer{
+  width:75%;
+	padding:10px;
+	margin:10px auto;
+	text-align: center;
+  height: 75%;
+}
+
+#buttonContainer{
+	width: 100%;
+	text-align: center;
+}
+#quoteButton{
+	width:300px;
+  margin-top: none;
+	border:0.20em solid #301A0E;
+	color:#474C4F;
+	font-family: "Queens Park";
+	font-weight: bold;
+  padding:0.5em;
+	text-decoration: none;
+	text-align: center;
+  background-color: #A2B6CE;
+}
+
+#quoteButton:hover{
+	cursor:pointer;
+	background: #A063C8;
+	color: #338427;
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton{
+	display: inline-block;
+}
+#quoteColleague{
+  font-size: 1em;
+	font-style: italic;
+	font-weight: 600;
+	text-align: center;
+}
+
+/*MEDIA QUERIES - Header*/
+
+@media (min-width: 769px) {
+
+	.main-header,
+	.main-nav {
+		display: flex;
+	}
+	.main-header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+  img {
+    height: 807px;
+    width: 603px;
+  }
+
+}
+
+@media (min-width: 1025px) {
+
+	.main-header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+  img {
+    height: 1614px;
+    width: 1206px;
+  }
+
+}
