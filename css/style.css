@@ -373,4 +373,20 @@ p#copyright {
   img.ben-gierhart-image {
     width: 100%;
   }
+
+  img.albums {
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.swimming {
+    height: 141px;
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
