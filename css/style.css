@@ -189,6 +189,15 @@ a.link:hover {
   color: #A063C8;
 }
 
+a.playlist {
+  color: #338427;
+}
+
+iframe {
+  display: block;
+    margin: auto;
+  }
+
 img {
   width: 100%;
   max-width: 1600px;
