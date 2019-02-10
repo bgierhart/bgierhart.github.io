@@ -14,6 +14,11 @@ body {
    min-width: auto;
 }
 
+div.albums {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 header {
   background-color: #A2B6CE;
   border-bottom: 2px solid #301A0E;
@@ -32,11 +37,31 @@ color: #A063C8;
 padding-bottom: none;
 }
 
+h1.albums {
+  font-family:  'Queens Park';
+  font-size: 2em;
+  text-align: center;
+  color: #338427;
+  padding-bottom: none;
+}
+
 h2 {
   font-family: 'Queens Park';
   font-size: 1.5em;
   color: #D7D8E4;
   text-align: left;
+}
+
+h2.albums {
+  font-family: 'Queens Park';
+  font-size: 1.5em;
+  color: #A063C8;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Queens Park';
+  text-align: center;
 }
 
 p {
@@ -54,6 +79,11 @@ strong {
 a {
 	font-family:'Queens Park';
   font-size: 1.1em;
+  color: #9E5D30;
+}
+
+a:hover {
+  color: #338427;
 }
 
 a.pop-humanities {
@@ -165,9 +195,25 @@ img {
   border: 5px solid #301A0E;
 }
 
+img.albums {
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img.ben-gierhart-image {
   height: 480px;
   width: 480px;
+}
+
+img.swimming {
+  height: 282px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.subtitle {
