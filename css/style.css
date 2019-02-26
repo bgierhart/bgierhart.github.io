@@ -217,6 +217,14 @@ img.ben-gierhart-image {
   width: 480px;
 }
 
+img.movies {
+  height: 750px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 img.swimming {
   height: 282px;
   width: 500px;
@@ -240,6 +248,10 @@ div.main-image {
 p#copyright {
   color: #301A0E;
   font-size: .75em;
+}
+
+ul.whatimissed {
+  color: red;
 }
 
 /* Base Layout Styles */
