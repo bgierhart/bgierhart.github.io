@@ -399,15 +399,20 @@ ul.whatimissed {
     height: 250px;
     width: 250px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   img.swimming {
     height: 141px;
     width: 250px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+  }
+
+  img.movies {
+    height: 375px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
   }
 }
